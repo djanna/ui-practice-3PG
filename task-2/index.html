@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <img class="logo-img" src="images/navbar-logo.svg" alt="navbar-logo">
-        <ul class="menu">
+    <nav class="navigation">
+        <img class="navigation__logo-img" src="images/navbar-logo.svg" alt="navbar-logo">
+        <ul class="navigation__menu">
             <li class="menu__item"><a href="#">Services</a></li>
             <li class="menu__item"><a href="#">Portofolio</a></li>
             <li class="menu__item"><a href="#">About</a></li>
@@ -17,11 +17,13 @@
             <li class="menu__item"><a href="#">Contact</a></li>
         </ul>
     </nav>
-    <div class="content">
-        <div class="container">
-            <span class="sub-text">Welcome to our studio!</span>
-            <span class="main-text">It's nice to meet you</span>
-            <a href="#"><button class="more-info-btn">Tell me more</button></a>
+    <div class="home-content">
+        <div class="home-content__welcome-container">
+            <span class="welcome-container__sub-text">Welcome to our studio!</span>
+            <span class="welcome-container__main-text">It's nice to meet you</span>
+            <a class="welcome-container__more-info" href="#">
+                <span class="more-info__btn">Tell me more</span>
+            </a>
         </div>
     </div>
 </body>

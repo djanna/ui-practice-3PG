@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Montserrat:wght@100;200;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 150px;
+    background-color: transparent;
+    position: absolute;
+}
+
+.navigation__logo-img {
+    height: 32px;
+}
+
+.navigation__menu {
+    list-style-type: none;
+    background-color: transparent;
+    display: flex;
+}
+  
+.menu__item a {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+.menu__item a:hover {
+    color: #fed136;
+}
+
+.home-content {
+    height: 100%;
+    background-image: url(../images/background-img.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.home-content__welcome-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-container__sub-text {
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+.welcome-container__main-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 70px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.welcome-container__more-info {
+    text-decoration: none;
+}
+
+.more-info__btn {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #fed136;
+    border: 1px solid #fed136;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 23px 43px;
+    transition: 0.3s;
+}
+
+.more-info__btn:hover {
+    background-color: #ffcd16;
+}

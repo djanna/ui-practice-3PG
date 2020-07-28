@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
+</head>
+<body>
+    <div class="l-content">
+        <div class="l-login-container">
+            <form class="login-form">
+                <span class="login-form__title">Login</span>
+                <div class="login-form__input-area">
+                    <i class="fa fa-envelope-o fa-lg input-area__icon"></i>
+                    <input type="email" class="input-area__field" name="email" placeholder="Email" required>
+                </div>
+                <div class="login-form__input-area"> 
+                    <i class="fa fa-lock fa-lg input-area__icon" aria-hidden="true"></i>
+                    <input type="password" class="input-area__field" name="psw" placeholder="Password" required>
+                </div>
+                <label class="remember-me__label login-form__text">
+                    <input type="checkbox">
+                    <span class="remember-me__checkbox"></span>
+                    Remember me
+                </label>
+                <button class="login-form__log-btn">Login</button>
+                <span class="login-form__text">Or login with</span>
+                <div class="login-form__social-media">
+                    <a href="https://www.facebook.com/">
+                        <span class="social-media__btn social-media__btn--facebook"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>Facebook</span>
+                    </a>
+                    <a href="https://www.google.com/">
+                        <span class="social-media__btn social-media__btn--google"><img src="images/google-icon.png" alt="google">Google</span>
+                    </a>
+                </div>
+                <span class="login-form__text login-form__text--bottom-info">
+                    Not a member? <a href="#">Sign up now</a>
+                </span>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
